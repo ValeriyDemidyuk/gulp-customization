@@ -240,11 +240,11 @@
  */
 
 .info-share {
-    margin-left: 75px!important;
+    margin-left: 75px !important;
 }
 
 .info-share .b-share a {
-    margin-right: 0!important;
+    margin-right: 0 !important;
 }
 
 /**
@@ -466,7 +466,7 @@
 .search-bar-result {
     border: 1px solid #e8e8e8;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     display: none;
     position: absolute;
     margin-top: 1px;
@@ -474,7 +474,7 @@
 }
 
 .search-bar-result-empty {
-    border: 0!important;
+    border: 0 !important;
 }
 
 .search-bar-result ul li {
@@ -815,8 +815,8 @@
  * Disabled button
  */
 .btn_disabled {
-    background-color: #ababab!important;
-    box-shadow: none!important;
+    background-color: #ababab !important;
+    box-shadow: none !important;
     border: 1px solid #5b6769;
     border-radius: 2px;
     color: #fff;
@@ -830,7 +830,7 @@
 .myfollower a.btn_disabled {
     background-color: #ababab !important;
     border: 1px solid #5b6769 !important;
-    cursor: text!important;
+    cursor: text !important;
     font-size: 14px;
     line-height: 1.8;
     height: auto;
@@ -838,8 +838,8 @@
 }
 
 .repose__note a.btn_disabled {
-    cursor: default!important;;
-    font-size: 14px!important;
+    cursor: default !important;;
+    font-size: 14px !important;
 }
 
 /**
@@ -876,7 +876,7 @@
 /**
  * Main page footer fix
  */
-@media screen and (min-height:900px) {
+@media screen and (min-height: 900px) {
     .main_footer {
         position: absolute;
         bottom: 0;
@@ -886,7 +886,6 @@
         margin: -54px 0 0 0;
     }
 }
-
 
 /**
  * Selectize
@@ -980,11 +979,11 @@
 
 .date-picker-wrapper .month-wrapper table .day.real-today {
     background-color: #5fb241;
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .date-picker-wrapper .first-date-selected, .date-picker-wrapper .last-date-selected {
-    background-color: #0882e2!important;
+    background-color: #0882e2 !important;
 }
 
 .date-picker-wrapper .footer {
@@ -1485,13 +1484,13 @@ div.view-travel-respond-done {
  * Respond send button
  */
 .search-result-respond-send {
-    background-color: #ababab!important;
-    box-shadow: none!important;
-    border: 1px solid #5b6769!important;
+    background-color: #ababab !important;
+    box-shadow: none !important;
+    border: 1px solid #5b6769 !important;
     height: 30px;
     line-height: 30px;
     padding: 0 29px 0 28px;
-    cursor: default!important;
+    cursor: default !important;
 }
 
 /**
@@ -1539,12 +1538,11 @@ div.view-travel-respond-done {
     width: 76px;
 }
 
-
 .guest-search-form .selectize-control {
     height: 34px;
 }
 
-.guest-search-form .selectize-control.single .selectize-input, .guest-search-form .selectize-control.single .selectize-input input  {
+.guest-search-form .selectize-control.single .selectize-input, .guest-search-form .selectize-control.single .selectize-input input {
     font-size: 16px;
     font-weight: 200;
     line-height: 32px;
@@ -1697,7 +1695,7 @@ div.view-travel-respond-done {
     margin-top: 20px;
 }
 
-.user-wishlist  .wishlist__item + .wishlist__item {
+.user-wishlist .wishlist__item + .wishlist__item {
     margin: 20px 0 0 0;
 }
 
@@ -1974,7 +1972,7 @@ div.view-travel-respond-done {
 }
 
 .feed-item-top .feed-item-top-date i {
-    color:#878b8c;
+    color: #878b8c;
     padding-right: 5px;
 }
 
@@ -1995,13 +1993,13 @@ div.view-travel-respond-done {
 }
 
 .feed-items-list-item.is-new .feed-item-top {
-    margin:-1px -1px 0;
-    padding:11px 21px 10px;
-    background:#e5f8df;
+    margin: -1px -1px 0;
+    padding: 11px 21px 10px;
+    background: #e5f8df;
 }
 
 .feed-items-list-item.is-new .feed-item-top .feed-item-top-route {
-    color:#5fb241;
+    color: #5fb241;
 }
 
 .feed-item-user {
@@ -2038,6 +2036,7 @@ div.view-travel-respond-done {
     text-decoration: none;
     font-size: 18px;
 }
+
 .feed-item-user .feed-item-user-info-name:hover {
     opacity: 0.8;
     filter: alpha(opacity=80);
@@ -2232,7 +2231,8 @@ div.view-travel-respond-done {
 }
 
 .invite-travel-item:before, .invite-travel-item:after {
-    content: " "; display: table;
+    content: " ";
+    display: table;
 }
 
 .invite-travel-item:after {
@@ -2472,7 +2472,7 @@ div.view-travel-respond-done {
 .dialog-view-control-menu {
     background-color: #fff;
     border: 1px solid #e8e8e8;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     display: none;
     padding: 10px 20px;
     position: relative;
@@ -2581,13 +2581,13 @@ div.message-content::after, div.message-date::after {
 }
 
 .dialog-messages-list li div.message-content div.loading {
-    background: #9ecb8e url("/images/message-preloader.gif") no-repeat scroll 6px center!important;
-    padding-left: 32px!important;
+    background: #9ecb8e url("/images/message-preloader.gif") no-repeat scroll 6px center !important;
+    padding-left: 32px !important;
 }
 
 .dialog-messages-list li div.message-content div.error {
-    background: #9ecb8e url("/images/message-error.png") no-repeat scroll 6px center!important;
-    padding-left: 32px!important;
+    background: #9ecb8e url("/images/message-error.png") no-repeat scroll 6px center !important;
+    padding-left: 32px !important;
 }
 
 .dialog-messages-list li.message-my span {
@@ -2749,7 +2749,7 @@ div.message-content::after, div.message-date::after {
 }
 
 .dialog-list-container li:hover {
-    background: #0781e1 none repeat scroll 0 0!important;
+    background: #0781e1 none repeat scroll 0 0 !important;
 }
 
 .dialog-list-container li:hover .name {
@@ -2955,14 +2955,14 @@ a.favorite-button, a.share-menu-button {
 }
 
 a.favorite-button:hover, a.favorite-button-selected {
-    color: #dea23a!important;
+    color: #dea23a !important;
 }
 
 /**
  * Share button
  */
 a.share-menu-button:hover, a.share-menu-button-selected {
-    color: #0882e2!important;
+    color: #0882e2 !important;
 }
 
 .share-menu-wrap {
@@ -3026,7 +3026,7 @@ a.share-button:hover {
 
 .share-platform-google {
     background-color: #dd4b39;
-    width: 31px!important;
+    width: 31px !important;
 }
 
 .share-platform-vk {
